@@ -44,3 +44,25 @@ header {
   right: 100px;
   z-index: 9999;
 }
+
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border: 2px solid #3498db;
+  margin-left: 715px;
+  color: #fff;
+  background-color: #3498db;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+  border-color: #2980b9;
+  color: #fff;
+}

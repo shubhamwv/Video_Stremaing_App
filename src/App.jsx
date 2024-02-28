@@ -34,7 +34,6 @@ function App() {
         </header>
         <div className="vid-page">
         {data.map((vi) => {
-          console.log(vi.video_files[1].link); // Log vi object to the console
           return (
             <>
             <div
@@ -50,9 +49,10 @@ function App() {
               />
               </div>      
               </>
-          );
-        })}
-        </div>
+              );
+            })}
+            </div>
+            <button>Record Your Video</button>
       </div>
     </>
   );
